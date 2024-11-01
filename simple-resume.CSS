@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    width: 60%;
+}
+.container{
+    background-color: #fff;
+    box-shadow:0 5px 10px 0 grey;
+}
+.content{
+    padding: 10px;
+}
+hr{
+    border-top: 3px solid black;
+}
+/*Header*/
+header{
+    text-align: center;
+    padding: 5px;
+}
+header h1, header p{
+    padding: 10px;
+}
+/*Content*/
+.summary p{
+    padding-top: 10px;
+    line-height: 30px;
+}
+.experience h4{
+    margin-top: 20px;
+}
+.experience h4, .experience p{
+    padding: 10px;
+}
+.experience ul{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.experience p{
+    padding: 10px;
+    font-style: italic;
+}
+.education p{
+    padding-top:10px;
+}
+.education h4{
+    padding-top: 10px;
+}
+.skills ul{
+    padding-top:10px;
+    list-style-type: none;
+    padding-bottom: 15px;
+}
